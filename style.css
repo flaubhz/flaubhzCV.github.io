@@ -1,0 +1,285 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Urbanist:ital,wght@0,400;0,600;1,200&display=swap" rel="stylesheet');
+
+*
+{
+
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+    font-family: 'Open-sans',sans-serif;
+
+
+}
+
+body {
+
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+
+    position: relative;
+    width:100%;
+    max-width:1000px;
+    min-height:1000px;
+    margin:50px;
+    background:#fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+
+
+.profileText {
+
+position: relative;
+display: flex;
+flex-direction:column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profileText .imgBX {
+position:relative;
+width:200px;
+height: 200px;
+border-radius: 50%;
+overflow:hidden;
+
+}
+
+
+ .imgBx img {
+
+
+    clip-path: circle();
+    max-width: 100%;
+
+}
+
+.profileText  h2 {
+
+    color:#af4747;
+    font-size: 1.5em;
+    margin: top 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    }
+
+    .profileText  h2 span {
+
+        font-size: 0.6em;
+        font-weight: 300;
+    }
+
+    .contactInfo{
+
+        padding-top: 40px;
+
+    }
+
+    .technologies{
+
+        color:#af4747;
+        font-size: 1.2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+    
+  
+
+    .title{
+
+        color:#af4747;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+       
+    }
+
+    .title1{
+
+        color:black;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin: 40px;
+        border-bottom: 1px solid rgba(2, 28, 95, 0.644);
+       
+    }
+
+
+    .first title{
+
+
+       
+        margin: 10px;
+        color: #003147;
+
+    }
+
+    
+    .second title{
+        background-color: #b7b0b0;
+        padding: 10px;
+        margin-bottom: 60px;
+        margin: 10px;            
+            }
+
+
+            
+    .third title{
+
+        background-color: #b7b0b0;
+        padding: 10px;
+        margin-bottom: 60px;
+        margin: 10px;
+        
+        
+            }
+
+            
+    .fourth title{
+
+        background-color: #b7b0b0;
+        padding: 10px;
+        margin-bottom: 60px;
+        margin: 10px;
+        
+        
+            }
+
+            .title2{
+
+                color:black;
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: 1px;
+                margin: 40px;
+                border-bottom: 1px solid rgba(2, 28, 95, 0.644);
+               
+            }
+    .contact .contactInfo ul {
+
+        position: relative;
+
+
+    }
+
+    .contact .contactInfo ul li {
+        position: relative;
+        list-style: none;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+
+     .icon {
+        display: inline-block;
+        width: 30px;
+        font-size: 18px;
+        color: #03a9f4;
+
+    }
+
+    .contactInfo .text{
+
+        color:#af4747;
+
+    }
+
+    .contact .contactInfo ul li span {
+
+        color: #ffff;
+        font-weight: 300;
+
+    }
+
+    .container .left_Side {
+
+        position: relative;
+        background: #003147;
+        padding: 40px;
+        margin-right: 40px;
+        }
+        
+    .container .right_Side {
+        
+        position: relative;
+        background:#fff;
+        
+        }
+
+        .education li {
+
+            margin-bottom: 15px;
+    
+            }
+    
+    
+        .education h5 {
+    
+            color:#af4747;
+            font-weight: 500;
+    
+            }
+        
+        .education h4:nth-child(2){
+    
+            color:#fff;
+            font-weight: 500;
+        
+        }
+    
+        .education h4{
+    
+            color:#fff;
+            font-weight: 500;
+        
+        }
+
+        .experience h5{
+            color:#af4747;
+
+        }
+
+        .aboutMe h5{
+            font-weight: 500;
+            color:#af4747;
+
+        }
+     .experience h5 {
+        font-weight: 500;
+        color:#af4747;
+
+    }
+.box-work1 {
+    background-color: #97a7b9;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+
+.box-work2 {
+    background-color: #93bbc4;
+    padding: 10px;
+    margin-bottom: 60px;
+    color: black;
+}
+
+
+.box-work3 {
+    background-color:#8ee3ce;
+    padding: 10px;
+    margin-bottom: 60px;
+}
